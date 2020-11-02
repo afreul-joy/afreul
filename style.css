@@ -1,0 +1,200 @@
+body,html{
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   background-color :rgb(78, 205, 196);
+   font-family: sans-serif;
+
+}
+.brandnav a{
+
+   font-size: 30px;
+   font-family: 'Righteous', cursive;
+
+}
+ul li a{
+   font-size: 20px;
+   font-weight: bold; 
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul li a:hover{
+   background-color: darkorange;
+}
+
+.homepage{
+   background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(1.jpg);
+   width: 100%;
+   height: 900px;
+   background-size:100% 100%;
+   background-attachment: fixed;
+}
+.animationhome{
+   
+   padding-top: 400px;
+   box-sizing: border-box;
+}
+.bgcolor.scrolled{
+    background-color:rgb(102, 255, 102);
+} 
+.start {
+   color:white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: 900;
+   font-size: 3rem;
+}
+.jj{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+   color: rgb(249, 187, 44);
+   font-weight: 350;
+}
+
+
+
+
+.navbar-sticky{
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: width 1s ease ;
+    transition-delay: 1s;
+    border-radius: 0px;
+}
+/* .nav-link{ 
+  color: aquamarine;
+} */
+
+/* End-Home-Page */
+
+/* start-skill */
+
+.progresbartext{
+
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: 500;
+   color:rgb(113, 105, 107);
+
+}
+/* start-Hobby-Section */
+ul.filters{
+   display: block;
+   width: 100%;
+   margin: 0;
+   padding: 30px 0;
+}
+
+ul.filters > li{
+   list-style: none;
+   display: inline-block;
+}
+
+ul.filters > li > a{
+   display: block;
+   color: #434e5e;
+   text-decoration: none;
+   padding: 5px 20px;
+}
+
+ul.filters > li > a:hover{
+   background-color: #e6e9ed;
+}
+
+ul.filters > li.active > a{
+   color: #fff;
+   background-color: rgb(204, 51, 255);
+}
+
+.card{
+   position: relative;
+   margin-bottom: 50px;
+   color: #000;
+   border-radius: 0;
+   border: 1px solid #eee;
+   background-color: #fff;
+   box-shadow: 1px 1px 1.5px rgba(0,0,0,0.075);
+}
+
+.card-head{
+   position: relative;
+   overflow: hidden;
+}
+
+.card-overlay{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9;
+   background-color: rgba(67,78,94,0.8);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color :#fff;
+   -webkit-transition: ease-in-out 0.2s;
+   -moz-transition: ease-in-out 0.2s;
+   -ms-transition: ease-in-out 0.2s;
+   transition: ease-in-out 0.2s;
+}
+
+.card-hover{
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgb(255, 102, 102);
+   z-index: 10;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   flex-direction: column;
+   box-sizing: border-box;
+   padding: 30px;
+   -webkit-transition: ease-in-out 0.2s;
+   -moz-transition: ease-in-out 0.2s;
+   -ms-transition: ease-in-out 0.2s;
+   transition: ease-in-out 0.2s;
+}
+
+.card-body{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+h4.title{
+   color: #434e5e;
+   font-size: 1.2rem;
+   margin-bottom: 0;
+}
+
+.card-btn{
+   margin-bottom: -40px;
+   font-size: 0.9rem;
+   background-color: #fff;
+   color: #222;
+   border: 1px solid #eee;
+   border-radius: 0;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+.card-btn:hover{
+   background-color: #28bea8;
+   color: #fff;
+}
+
+
+/* end-hobby */ 
+
+
+/* start-contact */
+.contactfrm {
+   background-color: black;
+   width: 80%;
+   height: 45vh;
+}
+.getintouch{
+font-family: 'Times New Roman', Times, serif;
+}
